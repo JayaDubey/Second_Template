@@ -1,0 +1,52 @@
+.bgimage{
+position: relative;
+filter: brightness(60%);
+}
+.firsttext
+{
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    color: white;
+}
+.secondtext
+{
+
+    position: absolute;
+    top: 45px;
+    left: 560px;
+    text-align: center;
+    width: 270px;
+    color: white;
+}
+.midItem{
+    margin-top: 90px;
+    margin-left: 90px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    column-gap: 5px;
+}
+.midconntent{
+    width: 550px;
+}
+.midItem{
+    margin-top: 90px;
+    margin-left: 90px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    column-gap: 5px;
+}
+.content{
+    margin-top: 95px;
+    margin-left: 70px;
+    width: 50%;
+    height: 100%;
+    /* position: fixed; */
+    z-index: 1;
+    overflow-x: hidden;
+    display: flex;
+    justify-content: center;
+}
+.heading{
+    left: 0;
+}
